@@ -221,14 +221,37 @@ Log levels:
 
 ## Screenshots
 
+Help
 
 ![Help](help.png)
 
+
+
+
+Testing Connectivity and Symbols Info
+
 ![Testing Connectivity and Symbols Info](<Testnet Connectivity & Symbols Info.png>)
+
+
+
+
+
+MARKET Order
 
 ![MARKET Order](<MARKET Order.png>)
 
+
+
+
+
+LIMIT Order
+
 ![LIMIT Order](<LIMIT Order.png>)
+
+
+
+
+Error Handling
 
 ![Error Handling](<Error Handling.png>)
 
