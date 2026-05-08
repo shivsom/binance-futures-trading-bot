@@ -1,0 +1,8 @@
+2026-05-08 12:30:10  INFO      trading_bot — BinanceFuturesClient initialised. Base URL: https://testnet.binancefuture.com
+2026-05-08 12:30:10  INFO      trading_bot — create_order called: symbol=BTCUSDT side=BUY type=MARKET qty=0.001 price=None stop=None
+2026-05-08 12:30:10  DEBUG     trading_bot — Validating order parameters: {'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 0.001, 'price': None, 'stop_price': None}
+2026-05-08 12:30:10  DEBUG     trading_bot — Validation passed: {'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 0.001, 'price': None, 'stop_price': None}
+2026-05-08 12:30:10  INFO      trading_bot — Placing MARKET order: symbol=BTCUSDT side=BUY qty=0.001
+2026-05-08 12:30:10  DEBUG     trading_bot — → POST /fapi/v1/order  params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'timestamp': 1746697810123}
+2026-05-08 12:30:11  DEBUG     trading_bot — ← HTTP 200  body={"orderId":3968428,"symbol":"BTCUSDT","status":"FILLED","clientOrderId":"x-Cb7ytekJef2e1a0f5f00","price":"0","avgPrice":"65120.30","origQty":"0.001","executedQty":"0.001","cumQty":"0.001","cumQuote":"65.12030","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","updateTime":1746697811000}
+2026-05-08 12:30:11  INFO      trading_bot — Order placed successfully: orderId=3968428 status=FILLED
